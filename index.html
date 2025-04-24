@@ -2,29 +2,44 @@
 <html>
     <head>
         <title>My Photography</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/preview.css">
     </head>
     <body>
         <header>
             <h2>My Photography</h2>
+            <p>A little piece of me</p>
         </header>
 
-        <section>
-            <nav>
-                <ul>
-                    <li><a href ="gallery.html">Gallery</a></li>
-                    <li><a href ="gear.html">My Gear</a></li>
-                </ul>
-                <!---<img src="images/20250209-IMG_0204.jpg" !-->
-            </nav>
-            <article>
-                <h1>I'm a Photographer</h1>
-                <p>My name is Lucius Landschulze and i am a hobby photographer.<br>
-                    This means I do photography for fun, and not as a job.<br>
-                    This website is dedicated to some of my work
-                </p>
-                <h3>Welcome aboard!</h3>
-            </article>
-        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href ="gallery.html">Gallery</a></li>
+                <li><a href ="gear.html">My Gear</a></li>
+            </ul>
+        </nav>
+
+        <aside>
+            <a href="gallery.html"><img src="images/20250420-IMG_0265.jpg" id="preview1" class="preview"></a>
+            <a href="gallery.html"><img src="images/20250420-IMG_0238-Enhanced-NR.jpg" id="preview2" class="preview"></a>
+        </aside>
+        
+        <article>
+            <h1>I'm a Photographer</h1>
+            <p>My name is Lucius Landschulze and i am a hobby photographer.<br>
+                This means I do photography for fun, and not as a job.<br>
+                This website is dedicated to some of my work
+            </p>
+            <h3>Welcome aboard!</h3>
+        </article>
+        
+        <footer>
+            <h1>About</h1>
+            <p>Copyright (c) 2024 Lucius Landschulze</p>
+            <h2>Find me!</h2>
+            <a href="https://github.com/lucilands">Github</a>
+            <a href="https://bsky.app/profile/lucilands.bsky.social">Bluesky</a>
+        </footer>
     </body>
 </html>
